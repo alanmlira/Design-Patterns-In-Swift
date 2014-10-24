@@ -1,6 +1,5 @@
-let context = Context()
-(context.isAuthorized, context.userId)
-context.changeStateToAuthorized(userId: "admin")
-(context.isAuthorized, context.userId) // now logged in as "admin"
-context.changeStateToUnauthorized()
-(context.isAuthorized, context.userId)
+var lower = Printer(strategy:LowerCaseStrategy())
+lower.printString("O tempora, o mores!")
+
+var upper = Printer(strategy:UpperCaseStrategy())
+upper.printString("O tempora, o mores!")
